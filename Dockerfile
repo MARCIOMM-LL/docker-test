@@ -6,9 +6,6 @@ RUN apt-get update && apt-get install -y \
     zip \
     unzip \
     libapache2-mod-php \
-    package-foo=1.3.* \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
 
 RUN a2enmod rewrite
 
