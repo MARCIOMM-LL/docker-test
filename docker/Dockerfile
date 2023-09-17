@@ -1,8 +1,8 @@
 FROM php:8.2-apache
 
-RUN apt-get update && apt-get install -y \
-    git   \
-    curl  \
+RUN apt update && apt install \
+    git \
+    curl \
     zip \
     unzip \
     libapache2-mod-php
